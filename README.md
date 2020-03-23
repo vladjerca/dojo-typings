@@ -1,7 +1,7 @@
 # dojo/typings
 
-[![Build Status](https://travis-ci.org/dojo/typings.svg?branch=master)](https://travis-ci.org/dojo/typings)
-[![npm version](https://badge.fury.io/js/dojo-typings.svg)](http://badge.fury.io/js/dojo-typings)
+![CI](https://github.com/vladjerca/dojo-typings/workflows/CI/badge.svg?branch=master)
+[![npm version](https://badge.fury.io/js/dojo-typings-upgraded.svg)](http://badge.fury.io/js/dojo-typings-upgraded)
 
 This is a repository of Dojo 1 TypeScript Typings (including Dijit and DojoX).
 
