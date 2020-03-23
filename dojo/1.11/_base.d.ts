@@ -132,7 +132,7 @@ declare namespace dojo {
 		}
 
 		interface ColorConstructor {
-			new (color: ColorValue | ColorValueAlpha | ColorObject | string): Color;
+			new(color: ColorValue | ColorValueAlpha | ColorObject | string): Color;
 			prototype: Color;
 
 			/**
@@ -177,137 +177,137 @@ declare namespace dojo {
 		/* dojo/colors */
 
 		interface ColorNamed {
-			'aliceblue':	ColorValue;
+			'aliceblue': ColorValue;
 			'antiquewhite': ColorValue;
-			'aquamarine':	ColorValue;
-			'azure':	ColorValue;
-			'beige':	ColorValue;
-			'bisque':	ColorValue;
-			'blanchedalmond':	ColorValue;
-			'blueviolet':	ColorValue;
-			'brown':	ColorValue;
-			'burlywood':	ColorValue;
-			'cadetblue':	ColorValue;
-			'chartreuse':	ColorValue;
-			'chocolate':	ColorValue;
-			'coral':	ColorValue;
-			'cornflowerblue':	ColorValue;
+			'aquamarine': ColorValue;
+			'azure': ColorValue;
+			'beige': ColorValue;
+			'bisque': ColorValue;
+			'blanchedalmond': ColorValue;
+			'blueviolet': ColorValue;
+			'brown': ColorValue;
+			'burlywood': ColorValue;
+			'cadetblue': ColorValue;
+			'chartreuse': ColorValue;
+			'chocolate': ColorValue;
+			'coral': ColorValue;
+			'cornflowerblue': ColorValue;
 			'cornsilk': ColorValue;
-			'crimson':	ColorValue;
+			'crimson': ColorValue;
 			'cyan': ColorValue;
 			'darkblue': ColorValue;
 			'darkcyan': ColorValue;
-			'darkgoldenrod':	ColorValue;
+			'darkgoldenrod': ColorValue;
 			'darkgray': ColorValue;
-			'darkgreen':	ColorValue;
+			'darkgreen': ColorValue;
 			'darkgrey': ColorValue;
-			'darkkhaki':	ColorValue;
-			'darkmagenta':	ColorValue;
-			'darkolivegreen':	ColorValue;
-			'darkorange':	ColorValue;
-			'darkorchid':	ColorValue;
-			'darkred':	ColorValue;
-			'darksalmon':	ColorValue;
+			'darkkhaki': ColorValue;
+			'darkmagenta': ColorValue;
+			'darkolivegreen': ColorValue;
+			'darkorange': ColorValue;
+			'darkorchid': ColorValue;
+			'darkred': ColorValue;
+			'darksalmon': ColorValue;
 			'darkseagreen': ColorValue;
-			'darkslateblue':	ColorValue;
-			'darkslategray':	ColorValue;
-			'darkslategrey':	ColorValue;
-			'darkturquoise':	ColorValue;
-			'darkviolet':	ColorValue;
+			'darkslateblue': ColorValue;
+			'darkslategray': ColorValue;
+			'darkslategrey': ColorValue;
+			'darkturquoise': ColorValue;
+			'darkviolet': ColorValue;
 			'deeppink': ColorValue;
-			'deepskyblue':	ColorValue;
-			'dimgray':	ColorValue;
-			'dimgrey':	ColorValue;
-			'dodgerblue':	ColorValue;
-			'firebrick':	ColorValue;
-			'floralwhite':	ColorValue;
-			'forestgreen':	ColorValue;
-			'gainsboro':	ColorValue;
-			'ghostwhite':	ColorValue;
+			'deepskyblue': ColorValue;
+			'dimgray': ColorValue;
+			'dimgrey': ColorValue;
+			'dodgerblue': ColorValue;
+			'firebrick': ColorValue;
+			'floralwhite': ColorValue;
+			'forestgreen': ColorValue;
+			'gainsboro': ColorValue;
+			'ghostwhite': ColorValue;
 			'gold': ColorValue;
-			'goldenrod':	ColorValue;
-			'greenyellow':	ColorValue;
+			'goldenrod': ColorValue;
+			'greenyellow': ColorValue;
 			'grey': ColorValue;
 			'honeydew': ColorValue;
-			'hotpink':	ColorValue;
-			'indianred':	ColorValue;
-			'indigo':	ColorValue;
-			'ivory':	ColorValue;
-			'khaki':	ColorValue;
+			'hotpink': ColorValue;
+			'indianred': ColorValue;
+			'indigo': ColorValue;
+			'ivory': ColorValue;
+			'khaki': ColorValue;
 			'lavender': ColorValue;
-			'lavenderblush':	ColorValue;
-			'lawngreen':	ColorValue;
+			'lavenderblush': ColorValue;
+			'lawngreen': ColorValue;
 			'lemonchiffon': ColorValue;
-			'lightblue':	ColorValue;
-			'lightcoral':	ColorValue;
-			'lightcyan':	ColorValue;
+			'lightblue': ColorValue;
+			'lightcoral': ColorValue;
+			'lightcyan': ColorValue;
 			'lightgoldenrodyellow': ColorValue;
-			'lightgray':	ColorValue;
-			'lightgreen':	ColorValue;
-			'lightgrey':	ColorValue;
-			'lightpink':	ColorValue;
-			'lightsalmon':	ColorValue;
-			'lightseagreen':	ColorValue;
+			'lightgray': ColorValue;
+			'lightgreen': ColorValue;
+			'lightgrey': ColorValue;
+			'lightpink': ColorValue;
+			'lightsalmon': ColorValue;
+			'lightseagreen': ColorValue;
 			'lightskyblue': ColorValue;
-			'lightslategray':	ColorValue;
-			'lightslategrey':	ColorValue;
-			'lightsteelblue':	ColorValue;
-			'lightyellow':	ColorValue;
-			'limegreen':	ColorValue;
-			'linen':	ColorValue;
-			'magenta':	ColorValue;
+			'lightslategray': ColorValue;
+			'lightslategrey': ColorValue;
+			'lightsteelblue': ColorValue;
+			'lightyellow': ColorValue;
+			'limegreen': ColorValue;
+			'linen': ColorValue;
+			'magenta': ColorValue;
 			'mediumaquamarine': ColorValue;
-			'mediumblue':	ColorValue;
+			'mediumblue': ColorValue;
 			'mediumorchid': ColorValue;
 			'mediumpurple': ColorValue;
-			'mediumseagreen':	ColorValue;
-			'mediumslateblue':	ColorValue;
-			'mediumspringgreen':	ColorValue;
-			'mediumturquoise':	ColorValue;
-			'mediumvioletred':	ColorValue;
+			'mediumseagreen': ColorValue;
+			'mediumslateblue': ColorValue;
+			'mediumspringgreen': ColorValue;
+			'mediumturquoise': ColorValue;
+			'mediumvioletred': ColorValue;
 			'midnightblue': ColorValue;
-			'mintcream':	ColorValue;
-			'mistyrose':	ColorValue;
+			'mintcream': ColorValue;
+			'mistyrose': ColorValue;
 			'moccasin': ColorValue;
-			'navajowhite':	ColorValue;
-			'oldlace':	ColorValue;
-			'olivedrab':	ColorValue;
-			'orange':	ColorValue;
-			'orangered':	ColorValue;
-			'orchid':	ColorValue;
-			'palegoldenrod':	ColorValue;
-			'palegreen':	ColorValue;
-			'paleturquoise':	ColorValue;
-			'palevioletred':	ColorValue;
-			'papayawhip':	ColorValue;
-			'peachpuff':	ColorValue;
+			'navajowhite': ColorValue;
+			'oldlace': ColorValue;
+			'olivedrab': ColorValue;
+			'orange': ColorValue;
+			'orangered': ColorValue;
+			'orchid': ColorValue;
+			'palegoldenrod': ColorValue;
+			'palegreen': ColorValue;
+			'paleturquoise': ColorValue;
+			'palevioletred': ColorValue;
+			'papayawhip': ColorValue;
+			'peachpuff': ColorValue;
 			'peru': ColorValue;
 			'pink': ColorValue;
 			'plum': ColorValue;
-			'powderblue':	ColorValue;
-			'rosybrown':	ColorValue;
-			'royalblue':	ColorValue;
-			'saddlebrown':	ColorValue;
-			'salmon':	ColorValue;
-			'sandybrown':	ColorValue;
+			'powderblue': ColorValue;
+			'rosybrown': ColorValue;
+			'royalblue': ColorValue;
+			'saddlebrown': ColorValue;
+			'salmon': ColorValue;
+			'sandybrown': ColorValue;
 			'seagreen': ColorValue;
 			'seashell': ColorValue;
-			'sienna':	ColorValue;
-			'skyblue':	ColorValue;
-			'slateblue':	ColorValue;
-			'slategray':	ColorValue;
-			'slategrey':	ColorValue;
+			'sienna': ColorValue;
+			'skyblue': ColorValue;
+			'slateblue': ColorValue;
+			'slategray': ColorValue;
+			'slategrey': ColorValue;
 			'snow': ColorValue;
-			'springgreen':	ColorValue;
-			'steelblue':	ColorValue;
-			'tan':	ColorValue;
-			'thistle':	ColorValue;
-			'tomato':	ColorValue;
-			'turquoise':	ColorValue;
-			'violet':	ColorValue;
-			'wheat':	ColorValue;
-			'whitesmoke':	ColorValue;
-			'yellowgreen':	ColorValue;
+			'springgreen': ColorValue;
+			'steelblue': ColorValue;
+			'tan': ColorValue;
+			'thistle': ColorValue;
+			'tomato': ColorValue;
+			'turquoise': ColorValue;
+			'violet': ColorValue;
+			'wheat': ColorValue;
+			'whitesmoke': ColorValue;
+			'yellowgreen': ColorValue;
 		}
 
 		interface ColorConstructor {
@@ -576,7 +576,7 @@ declare namespace dojo {
 		}
 
 		interface DeclareConstructor<T> {
-			new (...args: any[]): T & DeclareCreatedObject;
+			new(...args: any[]): T & DeclareCreatedObject;
 			prototype: T;
 
 			/**
@@ -779,7 +779,7 @@ declare namespace dojo {
 		 * Object used to generate values from a start value to an end value
 		 */
 		interface LineConstructor {
-			new (start: number, end: number): Line;
+			new(start: number, end: number): Line;
 		}
 
 		interface EasingFunction {
@@ -910,7 +910,7 @@ declare namespace dojo {
 		 * object at various states.
 		 */
 		interface AnimationConstructor {
-			new (args: any): Animation;
+			new(args: any): Animation;
 			prototype: Animation;
 		}
 
@@ -1631,7 +1631,7 @@ declare namespace dojo {
 		}
 
 		interface UrlConstructor {
-			new (...args: any[]): Url;
+			new(...args: any[]): Url;
 			prototype: Url;
 		}
 
@@ -1848,8 +1848,11 @@ declare namespace dojo {
 			contentType: boolean | string;
 		}
 
-		interface ContentHandlers {
+		interface ContentHandlersRecord {
 			[type: string]: (xhr: { responseText?: string, responseXML?: string }) => any;
+		}
+
+		interface ContentHandlersNamed {
 			'text': (xhr: { responseText: string }) => string;
 			'json': (xhr: { responseText: string }) => GenericObject;
 			'json-comment-filtered': (xhr: { responseText: string }) => GenericObject;
@@ -1857,6 +1860,8 @@ declare namespace dojo {
 			'xml': (xhr: { responseXML: string }) => Document;
 			'json-comment-optional': (xhr: { responseText: string }) => GenericObject;
 		}
+
+		type ContentHandlers = ContentHandlersNamed | ContentHandlersRecord;
 
 		interface Xhr {
 			(method: string, args: XhrArgs, hasBody?: boolean): Deferred<any>;

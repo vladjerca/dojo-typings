@@ -1739,11 +1739,6 @@ declare namespace dijit {
 		interface ToggleButtonConstructor extends _WidgetBaseConstructor<ToggleButton> { }
 
 		/* dijit/form/ValidationTextBox */
-
-		interface IsValidFunction {
-			(isFocused?: boolean): boolean;
-		}
-
 		interface ValidationTextBox<C extends Constraints> extends TextBox {
 			templateString: string;
 			required: boolean;
@@ -1758,7 +1753,7 @@ declare namespace dijit {
 			state: string;
 			tooltipPosition: string[];
 			validator: ConstrainedValidFunction<C>;
-			isValid: IsValidFunction;
+			isValid(isFocused?: boolean): boolean;
 			getErrorMessage(isFocused: boolean): string;
 			getPromptMessage(isFocused: boolean): string;
 			validate(isFocused: boolean): boolean;
